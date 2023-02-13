@@ -82,6 +82,7 @@ declare module "moleculer-db" {
 		searchFields?: string | string[];
 		search?: string;
 		query?: QueryOptions;
+		sort?:string | string[];
 	}
 
 	export interface CountOptions {
